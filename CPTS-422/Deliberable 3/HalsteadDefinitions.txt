@@ -1,0 +1,55 @@
+some classical explanation can be found by:
+https://en.wikipedia.org/wiki/Halstead_complexity_measures
+
+1. Halstead Length: The sum of the total number of operators(N1) and operands(N2)
+	Each time an operator (+, -, /, *, plus others possible) occurs plus the number of times its operand(s) occur.
+	May be easy if we can split up operators into unary, binary, ternary, then increment operands based off of operators.
+	
+2. Halstead Vocabulary: The sum of the number of unique operators(n1) and unique operands(n2)
+	If we stored all the operators and operands in a Dictionary with the operator or operand as the key and the value as the number of 	   times it occurs, we could get the total number of keys.
+
+3. Halstead Volume: The program length times the log2 of the program vocabulary
+	Volume = Nlog2(n)
+	"program vocabulary" must be determined; is it key words, total words, total characters separated by space or newline?
+
+	1) Volume = (Length)*log_2(Vocabulary); which is we need to find two above, then we can easily compute  Volume.
+
+4. Halstead Difficulty: Half of the unique operators (u) multiplied by the total number of operands (t), divided by the number of unique operands (o)
+	Difficulty = u/2 * t/o
+
+	1) same as above. when we did first two, difficulty is easy to find. 
+
+5. Halstead Effort: The difficulty multiplied by the volume. Intended as a suggestion for how long code review might take
+	Effort = Difficulty * Volume
+
+	1) same as above. when we did Q3 and Q4, Effort is easy to find. 
+
+6. Number of comments [3]
+	Count number of "//"" and pare of "/**/"
+
+7. Number of lines of comments [3]
+	Count the lines of comments, when we are doing above
+
+8. Number of looping statements [3]
+	Looking for key word "for", "while", etc.
+
+9. Number of operators(N1) [3]
+	***We need to find it first. In order to compute Q1 and Q2.
+
+10. Number of operands(N2) [3]
+	***We need to find it first. In order to compute Q1 and Q2.
+
+11. Number of expressions [3]
+	if a statement has operators and operands, it become expressions.
+
+12. Number of variable declarations [4]
+	var a = 10; is it a variable declarations?
+
+13. External Method references are the number of methods called from an external class [4]
+
+14. Local method references are the number of methods called from the same class [4]
+
+15. Number of casts
+	double a = (double)5;
+
+16. Maintainability Index

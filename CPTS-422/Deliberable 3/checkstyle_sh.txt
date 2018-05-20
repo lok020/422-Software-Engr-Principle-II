@@ -1,0 +1,1 @@
+java -cp C:\cpts422Project\422project\CptS422\git\net.sf.eclipsecs.checkstyle/checkstyle-7.6-all.jar com.puppycrawl.tools.checkstyle.gui.Main

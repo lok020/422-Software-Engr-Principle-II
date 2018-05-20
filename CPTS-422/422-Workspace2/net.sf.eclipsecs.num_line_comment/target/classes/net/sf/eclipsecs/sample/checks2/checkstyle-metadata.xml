@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="Strucutral Checks"  priority="1600">
+        <description>%StructuralChecks.desc</description>
+
+        <rule-metadata name="%MethodLimit.name" internal-name="MethodLimit" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.MethodLimitCheck" />
+            <description>%MethodLimit.desc</description>
+            <property-metadata name="max" datatype="Integer" default-value="30">
+                <description>The maximum number of allowed methods.</description>
+            </property-metadata>
+            <quickfix classname="net.sf.eclipsecs.sample.checks.MethodLimitQuickfix" />
+        </rule-metadata>
+        <rule-metadata internal-name="NumberLineComment" name="%NumberLineComment.name"
+        	parent="TreeWalker">
+        	<alternative-name internal-name="" /><description>%NumberLineComment.desc</description>
+        </rule-metadata>
+    </rule-group-metadata>
+</checkstyle-metadata>

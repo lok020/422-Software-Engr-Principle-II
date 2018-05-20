@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="My custom checks"  priority="1600">
+        <description>%MyCustomChecks.desc</description>
+
+        <rule-metadata name="%MethodLimit.name" internal-name="MethodLimit" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.MethodLimitCheck" />
+            <description>%MethodLimit.desc</description>
+            <property-metadata name="max" datatype="Integer" default-value="30">
+                <description>The maximum number of allowed methods.</description>
+            </property-metadata>
+            <quickfix classname="net.sf.eclipsecs.sample.checks.MethodLimitQuickfix" />
+        </rule-metadata>
+        
+        <rule-metadata name="%NumberOfOperator.name" internal-name="NumberOfOperator" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.NumberOfOperatorCheck" />
+            <description>%NumberOfOperator.desc</description>
+            <property-metadata name="operator" datatype="Integer" default-value="0">
+                <description>Number of Operator (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumberOfOperand.name" internal-name="NumberOfOperand" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.NumberOfOperandCheck" />
+            <description>%NumberOfOperand.desc</description>
+            <property-metadata name="Operand" datatype="Integer" default-value="0">
+                <description>Number of Operand (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+
+        <rule-metadata name="%LengthOfOO.name" internal-name="LengthOfOO" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.LengthOfOOCheck" />
+            <description>%LengthOfOO.desc</description>
+            <property-metadata name="length" datatype="Integer" default-value="0">
+                <description>Length Of OO (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+
+        <rule-metadata name="%Difficulty.name" internal-name="Difficulty" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.DifficultyCheck" />
+            <description>%Difficulty.desc</description>
+            <property-metadata name="difficulty" datatype="Integer" default-value="0">
+                <description>Half of the unique number of operators multiplied by the total number of operands over the number of unique operands (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+        
+        <rule-metadata name="%Vocabulary.name" internal-name="Vocabulary" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.VocabularyCheck" />
+            <description>%Vocabulary.desc</description>
+            <property-metadata name="vocabulary" datatype="Integer" default-value="0">
+                <description>Sum of unique number of operators and unique number of operands (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+        
+        <rule-metadata name="%VolumeOfOO.name" internal-name="VolumeOfOO" parent="TreeWalker">
+            <alternative-name internal-name="net.sf.eclipsecs.sample.checks.VolumeOfOOCheck" />
+            <description>%VolumeOfOO.desc</description>
+            <property-metadata name="volume" datatype="Integer" default-value="0">
+                <description>Volume Of OO (from checkstyle-metadata.xml).</description>
+            </property-metadata>
+        </rule-metadata>
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> rtao
+    </rule-group-metadata>
+</checkstyle-metadata>
