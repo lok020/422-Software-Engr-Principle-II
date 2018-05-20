@@ -1,0 +1,68 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.epp.package.java;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.packaging
+Require-Bundle: org.eclipse.platform,org.eclipse.equinox.app
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/epp/or
+ g.eclipse.epp.packages.git;path="packages/org.eclipse.epp.package.jav
+ a";commitId=c059f4d6aa3c4531a605918a9239427b97ab91ec
+Bundle-Vendor: Eclipse Packaging Project
+Bundle-Name: EPP Java Package
+Bundle-Version: 4.6.3.20170314-1500
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+Eclipse-BundleShape: dir
+
+Name: org.eclipse.ui.intro.universal.solstice/intro-eclipse.png
+SHA-256-Digest: Rdk3n6qhuYCV0t/dIA2IdQLoZZQwLO4mCU3U7MK6PQY=
+
+Name: about.properties
+SHA-256-Digest: mdEa3R+tbm0ZRlhncUywebRTH1G7A6nOLwj6JWDblmI=
+
+Name: epp-java-about.png
+SHA-256-Digest: 4bi9Fg90Ss+x4i/eZDBecEq/Ppn63gZYq+0RPaypLxs=
+
+Name: plugin_customization.ini
+SHA-256-Digest: W41qavUGfLMc128L8/fLW94l0U4RtIb66VJiXhWbdW4=
+
+Name: about.html
+SHA-256-Digest: UTaB7jny234ewRnQ2UOoGM8hk+k1vS982d8D3YQUB6k=
+
+Name: plugin.xml
+SHA-256-Digest: c+erTZIU+cc2M6TQ3juf4+WPlrNjSIX/LPBwuS9ng7Q=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.java/pom.
+ xml
+SHA-256-Digest: 69ZF4Ruo4INCIPRJ0VJsQSnynyCgB5nYQNM2N5n6dZU=
+
+Name: intro-eclipse.png
+SHA-256-Digest: tVA61FalUdc3NRe6eEABDuyh+57e6fQrJ7XrTXLIGsw=
+
+Name: eclipse32.png
+SHA-256-Digest: ktA85ZDd0SYDxbcnnzVpnpATbdHzzTvB7x6Y8FkhCS4=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.java/pom.
+ properties
+SHA-256-Digest: 7eOdMRuev7vvytSyW5kAuS2tCaKRae/2Cp4furtmel0=
+
+Name: about.mappings
+SHA-256-Digest: 1fMnspoATDxYjWf+G16vsehIPa1JSTgVuJ3nSSIDlFE=
+
+Name: eclipse48.png
+SHA-256-Digest: EeE/qub7BEo/0PoxZcrXMRDFjT00qg3gLR8c9IVhVcU=
+
+Name: about.ini
+SHA-256-Digest: VqkwGb+OpWOFoJCZ2cJtYVaM06xp0oJ1+bBjjIFGnHQ=
+
+Name: plugin.properties
+SHA-256-Digest: o01s97IM3qL3ASr/lxt5020OABlu9GZBw1MVSdkFcEw=
+
+Name: eclipse16.png
+SHA-256-Digest: /J3RvmGlaYuPpn6gL7yrCohkIZ3gNNth3ztHKMGjcJ0=
+
+Name: eclipse256.png
+SHA-256-Digest: iXCC15nl7M4FmsBM4hb2MKrXaZEX+HSO2GFAVkBpaAo=
+

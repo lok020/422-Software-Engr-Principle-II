@@ -1,0 +1,20 @@
+1. Each team member will choose and implement two antipatterns. You are free to find and cite your own resources but I suggest to start from the book chapter published by Palomba et al. [1].
+
+	[1] F. Palomba, G. Bavota, R. Oliveto, and A. De Lucia (2014). Anti-Pattern Detection: Methods, Challanges, and Open Issues. In Advances in Computers, Volume 95, Chapter 4, pp. 201-238. [pdf: https://dibt.unimol.it/staff/fpalomba/documents/B1.pdf]
+
+2. Metrics chosen for each team member.
+	Structural metrics.
+
+3. Code implementing the metrics.
+	Java->we need to use Plug-in Project, not common Project. Any idea? 
+	Coding part should not be hard. All we need is find a right structure.
+	Here is tutorial: 
+	https://www.eclipse.org/articles/Article-Your%20First%20Plug-in/YourFirstPlugin.html
+
+4. Report. 
+	we need a format. What is reprot looks like? anyone has a sample report?
+	1) The report will describe the role of each team member and all activities that took place during the development process. 
+	2) Assessment criteria for this deliverable include the clarity of the report, the choice and justification of followed practices and process, and the quality of the produced software (including the tests). 
+	3) Particular importance will be paid to the functionality provided by the software and whether or not this functionality fulfils the user requirements, the history of the project activities in the version control tool, the coding standards used during development, the code readability and documentation.
+
+5. Peer evaluation. Each team member must submit a peer evaluation report.
