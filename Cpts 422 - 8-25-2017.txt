@@ -1,0 +1,41 @@
+Exhaustive testing
+
+the specification -> black box testing
+Unexpected functionality: cannot be revealed by black box techniques
+
+the implementation -> white box testing
+Missing functionality: cannot be revealed by white box techniques
+
+
+Complete coverage: white box		// get to all the situation		x=4, y=3 | x=5, y=6
+if x > y then
+	Max := x;
+else
+	Max := x; 		// fault
+end if;
+
+					// We can not use the size of the test case to decide the coverage
+
+Complete coverage: Black box
+divide the input domain into the following classes and use one daya point from each class
+
+Differetnces among testing levels:
+unit testing
+- from module specifications
+- visibility of code details
+- complex scaffolding
+- behavior of single module
+
+integration testing
+- fromm interface spcifications
+- visibility of integr. struct.
+- some scaffolding
+- interations among modules
+
+system testing
+- from requirements specs
+- no visibility of code
+- no drivers/stubs
+- system functionsabilities
+
+Regression testing: every other case are still working after unit testing and integration testing

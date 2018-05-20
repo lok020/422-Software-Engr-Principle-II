@@ -1,0 +1,92 @@
+Nature of software development
+- development, not production
+- human intensive
+- engineering, but also social process
+- more and more complex software stsrems
+- prevasive in an increasing number of industries
+
+Qualities of software products
+- correctness
+- reliability
+- robustness
+- performance
+- user friendliness
+- verifiability
+- maintainability
+- repairability
+- evolvability
+- reusability
+- portability
+- understandability
+- interoperability
+
+Pervasive problems
+- software is commonly delivered late, way over budget, and of unsatisfactory quality
+- software validation and verification are rarely systematic and are usually not based on sound, well defined techniques
+- software development processes are commonly unstable and uncontrolled
+- software quality is poorly measured, monitored, and controlled
+
+Basic testing definitions
+- errors: people commit errors
+- fault: a fault is the result of an error in the software documentation, code, etc, fault of commission versus fault of omission
+
+Fault taxonomies
+- input/output
+- logic
+- computation
+- interface
+- data
+- .. but also difficlty to resolve, priority, etc
+
+Test stubs and drivers
+- Test stub: partial implementation of a component on which the tested component depends
+- Test driver: partial implememtation of a component that depends on the tested component
+- Test stubs and drivers enable components to be isolated from the rest of the system for testing
+
+Goals of testing
+- Dijstra, 1972: "Program testing can be used to show the presence of bugs, but never to show their absence"
+- no absolute certainty can be gained from testing
+- testing should be integrated with other verification activites, eg, inspections
+- main goal: demonstrate that the software can be depended upon, ie, sufficient dependability
+
+Reality check
+- no matter how rigorous we are, software is going to be faulty
+- impossible to test under all operating confitions - based on incomplete testing, we must gain confidence that the system has the desired behavior
+
+Testing bs Debugging vs Quality Assurance
+- Testing: Finding inputs that cause the software to fial. Concentrates on the product
+- Debugging: The process
+
+Validation & Verification
+
+Qualities fo testing
+- effective at uncovering faults
+- repeatable so that a precise understanding of the fault can be gained
+- Automated to lower the cost and timescale
+- systematic to be predictable
+
+Continuity property
+- test a bridge ability to sustain a certain weight
+- if a bridge can sustain a weight wqual to W1, then it will sustain any erigt W2 <= W1
+- The same simplifications cannot be
+
+Subtleties of software dependability
+- dependability: correctness, reliability, safety, robustness
+- correct but not safe or robust: the specification is inadequate
+- reliable not not correct:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

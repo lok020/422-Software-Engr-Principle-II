@@ -1,0 +1,35 @@
+
+RunWith(PowerMockRunner.class)
+@PrepareForTest({Calendar.class, Date.class})
+
+
+// switch the month and day
+
+
+--------------------------------------------------------
+
+public class bottomuptest
+{
+	public void test() throws Exception
+	{
+		Calendar.main(new String[] {"30", "8", "2017"});
+	}
+}
+
+
+
+public void testMainWithValidDate() throsw Exception
+{
+	Date mDate = PowerMock.createMockAndExpectNew(Date.class, 30, 8, 2017);
+	Assert.asserNotNull(mDate);
+	EasyMock.expect(mDAte.toString()).andReturn("Wednesday, 8/30/2017, is the 242 " + "of the year and the zodiac sign is Virgo").times(2);
+	PowerMock.mockStaticPartial(Date.class, "isValidDate");
+	EasyMock.expect(Date.isValidDate(30,8,2017)).andReturn(true).times(2);
+
+	PowerMock.main(new String[] {"30", "8", "2017" });
+	
+	Assert.assertTrue(Date.isValidDate(30, 8, 2017));
+	Assert.assertEquals("Wednesday, 8/30/2017, is the 242 of the year and the "+ "zodiac sign is Virgo", mDate.toString());
+
+	PowerMock.verifyAll();
+}

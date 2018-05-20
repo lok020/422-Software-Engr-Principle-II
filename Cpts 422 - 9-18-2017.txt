@@ -1,0 +1,26 @@
+Types of system testing
+- Functional testing
+- Performance testing
+- Stress testing
+- Configuration testing
+- Security testing
+- Recovery testing
+- Reliability testing
+- Usability testing
+
+user testing
+Goal: allow the user to evaluate the software in terms of their expectation
+- Types of user testing
+	- Acceptance
+	- Alpha/ Beta
+
+
+------------------------------------------------------------------------------------------------------
+
+Task for today
+1. Identify functional/ non-functional requirements for the Calendar example
+- Functional requiremnets: If user type in the wrong date, system should ask for a correct date.
+
+- Non-functional requirement: system have to return the result within 1 second
+
+2. Test and fix the code when the requirements are not met

@@ -1,0 +1,61 @@
+close book
+
+Theory: understand the concepts
+	- multiple choice question: 50% answer, 50% justification
+	- open/closed questions						// provide short answer
+	
+	- example: how testing fits into the ... development process models (waterfall, agile, etc)
+	- example: what are the different code review policies
+	
+	- compare and contrast
+		- Testing vs debugging vs quality assurance
+		- black box testing vs white box testing
+
+	- mc
+		- (True v False v it depends) ^ justification
+
+Practice: test what you know
+	- How would you test it?
+	- describe how you would perform TDD for method	...		// describe the general strategies that you are planning to follow and why
+
+	- Perform TTD on method ...
+	- Perform unit testing on ...					// comment on the code
+
+Topic
+- Testing
+	- vocabulary: can have false in the code
+	- goal: make sure have confidence to say its right
+	- challenges: take times to test everything
+	- types: unit testing, integration testing, whitebox, blackbox
+	- levels: 
+- The role of testing in the different process models
+	- waterfall
+	- agile
+- Unit testing
+	- characteristics: test one function at a time
+	- cons: takes time to figure out what need to be test
+- Integration testing
+	- characteristics: unit work together
+	- strategies: bottome up, top down, pair wise
+- System testing (functional testing)
+	- characteristics: 
+	- types:
+	- example
+		- stress testing (how many people can take)
+		- performance testing (how fast can it run)
+		- usaibility testing (how easy can user use it)
+- User testing
+	- characteristics: 
+	- exmaple
+		- aphla/beta testing
+- Code reviews
+	- try to find problem
+	- try to find solution
+	- to get a better understand to the code
+	- share code ownership
+	- being aware of design pattern
+	- challenges
+		- take a while		// diffcult to communcate what had change
+			- solution
+				- talk in person
+				- use tool
