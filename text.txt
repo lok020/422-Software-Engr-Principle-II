@@ -1,0 +1,18 @@
+List<DetailAST> findChildASTsofType(DetailAST parent, int type)
+{
+	List<DetailAST> children = new ArrayList<DetailAST>();
+	DetailAST first_child = parent.getFirstChild();
+	while(first_child != null)
+	{
+		if (first_child.getType() == type)
+		{
+			children.add(first_child);
+		}
+		else
+		{
+			children.addAll(findChildASTsofType(first_child, type));
+		}
+		first_child = first_child.getNextSibling();
+	}
+	return children;
+}
